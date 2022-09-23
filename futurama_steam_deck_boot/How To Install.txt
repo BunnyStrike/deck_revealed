@@ -1,4 +1,4 @@
-Run the commands below one at a time in Konsole (terminal)
+Run the commands below one at a time in the Konsole (terminal)
 
 cd /home/deck/Downloads
 wget https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/futurama_steam_deck_boot/deck_startup.webm
