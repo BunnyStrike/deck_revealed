@@ -1,0 +1,5 @@
+Run the commands below one at a time in the Konsole (terminal)
+
+FUTURAMA:
+curl https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/futurama/install.sh > futurama_install.sh | bash -
+rm -r futurama_install.sh
