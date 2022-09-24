@@ -9,6 +9,4 @@ CUSTOM:
 1. Create webm video with https://converterpoint.com/webm-converter.php
 2. Rename the video to deck_startup.webm
 3. In the Konsole, run: 
-  Truncate -s 1840847 deck_startup.webm
-4. In the Konsole, run: 
   curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/custom/custom_install.sh | bash -
