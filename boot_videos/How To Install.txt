@@ -1,4 +1,3 @@
-Run the commands below one at a time in the Konsole (terminal)
 
 FUTURAMA:
 curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/futurama/futurama_install.sh | bash -
