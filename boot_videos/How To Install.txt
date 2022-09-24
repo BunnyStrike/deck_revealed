@@ -5,6 +5,9 @@ curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_
 SEINFELD:
 curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/seinfeld/seinfeld_install.sh | bash -
 
+PIPBOY:
+curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/pipboy/install.sh | bash -
+
 CUSTOM:
 1. Create webm video with https://converterpoint.com/webm-converter.php
 2. Rename the video to deck_startup.webm
