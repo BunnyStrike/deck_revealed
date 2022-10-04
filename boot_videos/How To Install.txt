@@ -13,3 +13,7 @@ CUSTOM:
 2. Rename the video to deck_startup.webm
 3. In the Konsole, run: 
   curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/custom/custom_install.sh | bash -
+
+
+For the new beta update:
+curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/futurama/beta_install.sh | bash -
