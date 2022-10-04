@@ -1,4 +1,4 @@
-#!binbash
+#!/bin/bash
 
 mkdir -p "$HOME/.local/share/Steam/steamui/overrides/movies"
 cd "$HOME/.local/share/Steam/steamui/overrides/movies"
@@ -11,10 +11,10 @@ echo "$title"
 PS3="$prompt "
 select opt in "${options[@]}" "Quit"; do 
     case "$REPLY" in
-    1) wget https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/futurama/deck_startup.webm;;
-    2) wget https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/office/deck_startup.webm;;
-    3) wget https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/pipboy/deck_startup.webm;;
-    4) wget https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/seinfeld/deck_startup.webm;;
+    1) wget "https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/futurama/deck_startup.webm"; break;;
+    2) wget "https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/office/deck_startup.webm"; break;;
+    3) wget "https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/pipboy/deck_startup.webm"; break;;
+    4) wget "https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/seinfeld/deck_startup.webm"; break;;
     $((${#options[@]}+1))) echo "Goodbye!"; break;;
     *) echo "Invalid option. Try another one.";continue;;
     esac
