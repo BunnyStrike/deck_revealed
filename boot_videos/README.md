@@ -36,3 +36,10 @@ CUSTOM:
 ``` bash
   curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/custom/custom_install.sh | bash -
 ```
+
+
+### Uninstall and Set Back to default boot video
+
+``` bash
+curl -o - https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/boot_videos/uninstall.sh | bash -
+```
