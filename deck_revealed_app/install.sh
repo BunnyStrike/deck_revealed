@@ -2,7 +2,6 @@
 
 set -eo pipefail
 
-# EMUDECK_GITHUB_URL="https://api.github.com/repos/EmuDeck/emudeck-electron/releases/latest"
 DECK_REVEALED_GITHUB_URL="https://api.github.com/repos/BunnyStrike/deck_revealed/releases/latest"
 DECK_REVEALED_URL="$(curl -s ${DECK_REVEALED_GITHUB_URL} | grep -E 'browser_download_url.*AppImage' | cut -d '"' -f 4)"
 
