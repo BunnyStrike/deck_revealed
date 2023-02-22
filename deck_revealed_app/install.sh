@@ -25,6 +25,6 @@ chmod +x ~/Downloads/appimagelauncher-lite-2.2.0-travis995-0f91801-x86_64.AppIma
 ~/Downloads/appimagelauncher-lite-2.2.0-travis995-0f91801-x86_64.AppImage install || :
 
 # Download and install DeckRevealed
-curl -L "${DECK_REVEALED_URL}" -o ~/Applications/EmuDeck.AppImage 2>&1 | stdbuf -oL tr '\r' '\n' | sed -u 's/^ *\([0-9][0-9]*\).*\( [0-9].*$\)/\1\n#Download Speed\:\2/' | zenity --progress --title "Downloading DeckRevealed App" --width 600 --auto-close --no-cancel 2>/dev/null
+curl -L "${DECK_REVEALED_URL}" -o ~/Applications/DeckRevealed.AppImage 2>&1 | stdbuf -oL tr '\r' '\n' | sed -u 's/^ *\([0-9][0-9]*\).*\( [0-9].*$\)/\1\n#Download Speed\:\2/' | zenity --progress --title "Downloading DeckRevealed App" --width 600 --auto-close --no-cancel 2>/dev/null
 chmod +x ~/Applications/DeckRevealed.AppImage
 ~/Applications/DeckRevealed.AppImage
