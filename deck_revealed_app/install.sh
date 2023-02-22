@@ -3,7 +3,7 @@
 set -eo pipefail
 
 # EMUDECK_GITHUB_URL="https://api.github.com/repos/EmuDeck/emudeck-electron/releases/latest"
-DECK_REVEALED_GITHUB_URL="https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher-lite-2.2.0-travis995-0f91801-x86_64.AppImage"
+DECK_REVEALED_GITHUB_URL="https://api.github.com/repos/BunnyStrike/deck_revealed/releases/latest"
 DECK_REVEALED_URL="$(curl -s ${DECK_REVEALED_GITHUB_URL} | grep -E 'browser_download_url.*AppImage' | cut -d '"' -f 4)"
 
 APP_IMAGE_LAUNCHER_URL="https://github.com/TheAssassin/AppImageLauncher/releases/download/v2.2.0/appimagelauncher-lite-2.2.0-travis995-0f91801-x86_64.AppImage"
