@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=sh -c 'curl -L https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/install.sh | bash'
+Exec=sh -c 'curl -L https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/deck_revealed_app/install.sh | bash'
 GenericName[en_US]=
 GenericName=
 MimeType=
