@@ -15,6 +15,11 @@ report_error() {
 
 trap report_error ERR
 
+# Installs Chrome and allows controller support
+flatpak install --system -y com.google.Chrome
+flatpak --user override --filesystem=/run/udev:ro com.google.Chrome
+
+
 # Make Directory for Applications
 mkdir -p ~/Applications
 
