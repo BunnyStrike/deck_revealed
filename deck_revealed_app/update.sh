@@ -17,7 +17,7 @@ trap report_error ERR
 
 # Kill DeckRevealed if it is running
 killall -9 -q deck_revealed_app || :
-kill -q $(pgrep -f /home/deck/Applications/DeckRevealed.AppImage) || :
+kill $(pgrep -f /home/deck/Applications/DeckRevealed.AppImage) || :
 
 # Installs Chrome and allows controller support
 flatpak install --system -y com.google.Chrome
