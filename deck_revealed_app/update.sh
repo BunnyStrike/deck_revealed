@@ -16,7 +16,7 @@ report_error() {
 trap report_error ERR
 
 # Kill DeckRevealed if it is running
-killall -9 DeckRevealed
+killall -9 deck_revealed_app
 
 # Installs Chrome and allows controller support
 flatpak install --system -y com.google.Chrome
