@@ -1,4 +1,9 @@
 #!/bin/bash
 
-# Make Directory for Applications
+
+# Kill DeckRevealed if it is running
+killall -9 -q deck_revealed_app || :
+kill $(pgrep -f /home/deck/Applications/DeckRevealed.AppImage) || :
+
+# Remove Directory for Applications
 rm -R ~/Applications/DeckRevealed.AppImage
