@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=sh -c 'curl -L https://raw.githubusercontent.com/BunnyStrike/deck_revealed/main/deck_revealed_app/uninstall.sh | bash'
+GenericName[en_US]=
+GenericName=
+MimeType=
+Name[en]=Uninstall DeckRevealed
+Name[es]=Uninstalar DeckRevealed
+Name=Uninstall DeckRevealed
+Path=
+StartupNotify=false
+Terminal=true
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
